@@ -1,0 +1,82 @@
+.bg-grey {
+    background-color: #9C9C9C;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-lightblue {
+    background-color: #E4F4FD;
+}
+
+.bt-darkblue {
+    background-color: #4A6EA9;
+}
+
+.bt-blue {
+    background-color: #1DBBF1;
+}
+
+.bt-red {
+    background-color: #E56148;
+}
+
+.container-center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.btn-size {
+    height: 30px;
+    width: 200px;
+}
+
+.btn-border {
+    border: none;
+}
+
+.h1 {
+    font-size: 20px;
+}
+
+.h2 {
+    font-size: 17px;
+}
+
+.h3 {
+    font-size: 12px;
+}
+
+.py-5 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.px-5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.my-5 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.color-white {
+    color: #ffffff;
+}
+.color-blue{
+    color: #24ABED;
+}
+.pointer{
+    cursor: pointer;
+}
+.text-dec{
+    text-decoration: none;
+}
