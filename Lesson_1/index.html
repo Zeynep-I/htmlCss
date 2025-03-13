@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 600px;
+            body {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 600px;
+                background-color: whitesmoke;
+                padding: 20px;
+            }
+
+        .section {
+            background-color: white;
+            padding: 20px;
         }
 
         .button {
-            background-color: rgb(66, 160, 243);
+            background-color: rgb(19, 137, 241);
             color: white;
             border-radius: 5px;
             border: none;
@@ -23,23 +30,37 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             cursor: pointer;
         }
+
+        .under {
+            text-align: center;
+            color: grey;
+        }
     </style>
 </head>
 
 <body>
-    <p>
-        Hi there.
-        <br><br>
-        Sometimes you just want to need send a simple HTML email with a simple design and clear call to action. This is
-        it.
-        <br><br>
-        <button class="button"><b>Call To Action</b></button>
-        <br><br>
-        This is a really simple email template. Its sole porpose is to get the recipient to click the button with no
-        distraction.
-        <br><br>
-        Good Luck! Hope it works.
-    </p>
+    <div class="section">
+        <div>
+            Hi there.
+            <br><br>
+            Sometimes you just want to need send a simple HTML email with a simple design and clear call to action. This
+            is
+            it.
+            <br><br>
+            <button class="button"><b>Call To Action</b></button>
+            <br><br>
+            This is a really simple email template. Its sole porpose is to get the recipient to click the button with no
+            distraction.
+            <br><br>
+            Good Luck! Hope it works.
+        </div>
+    </div>
+    <br><br>
+    <div class="under">
+        Company inc. 3 Abbey Road, San francisco CA 94102 <br>
+        Don't like this emails? <u>Unsubscribe.</u><br><br>
+        Powered by HTMLemail.
+    </div>
 </body>
 
 </html>

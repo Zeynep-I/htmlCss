@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 300px;
+            background-color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        input {
+            width: 200;
+        }
+
+        .headline {
+            text-align: center;
+        }
+
+        .duydurys {
+            color: red;
+            font-size: small;
+        }
+
+        .form {
+            background-color: white;
+            padding: 15px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .submit {
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 30px;
+            width: 270px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headline">
+        <h2>Iş üçin arza platformasy</h2>
+        <p class="duydurys"> Haýyş edýaris, arzada ähli meýdançalaryň doldurylandygyna göz ýetiriň. Doldurulmadyk
+            arzalar göz
+            öňünde
+            tutulmaz
+        </p>
+    </div>
+    <div class="form">
+        <h2>
+            Şahsy maglumatlar
+        </h2>
+        <hr>
+        <div>
+            <form action="#">
+                <div>
+                    <p>Wezipe <span class="red">*</span></p>
+                    <label><input type="radio" name="job" required> English Language
+                        Teacher</label> <br>
+                    <label><input type="radio" name="job" required> Computer Science Teacher</label> <br>
+                    <label><input type="radio" name="job" required> Mathematics Teacher</label> <br>
+                    <label><input type="radio" name="job" required> Mental Arithmetics Teacher</label> <br>
+                    <label><input type="radio" name="job" required> Russian Language Teacher</label> <br>
+                    <label><input type="radio" name="job" required> Chinese Language Teacher</label> <br>
+                </div>
+                <div>
+                    <p>Ady <span class="red">*</span></p>
+                    <label>
+                        <input type="text" required>
+                    </label>
+                    <br>
+                    <p>Familiýasy <span class="red">*</span></p>
+                    <label>
+                        <input type="text" required>
+                    </label>
+                    <br>
+                    <p>Kakasynyň ady <span class="red">*</span></p>
+                    <label>
+                        <input type="text" required>
+                    </label>
+                </div>
+                <div>
+                    <p>Jynsy <span class="red">*</span></p>
+                    <label>
+                        <input type="radio" name="gender" required>
+                        Aýal
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" required>
+                        Erkek
+                    </label>
+                </div>
+                <div>
+                    <p>Doglan güni <span class="red">*</span></p>
+                    <label>
+                        <input type="text" required>
+                    </label>
+                </div>
+                <div>
+                    <p>Telefon <span class="red">*</span></p>
+                    <label>
+                        <button> +993</button><input type="tel" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}">
+                    </label>
+                </div>
+                <div>
+                    <p>E-poçtasy <span class="red">*</span></p>
+                    <label>
+                        <input type="text" required>
+                    </label>
+                </div>
+                <div>
+                    <p>Salgysy <span class="red">*</span></p>
+                    <label>
+                        <input type="text" required>
+                    </label>
+                </div>
+                <div>
+                    <p>Ýerleşýän ýeri <span class="red">*</span></p>
+                    <label><input type="radio" name="place" required> Aşgabat</label>
+                    <label><input type="radio" name="place" required> Arkadag</label>
+                    <label><input type="radio" name="place" required> Ahal</label><br>
+                    <label><input type="radio" name="place" required> Balkan</label>
+                    <label><input type="radio" name="place" required> Daşoguz</label>
+                    <label><input type="radio" name="place" required> Lebap</label> <br>
+                    <label><input type="radio" name="place" required> Mary</label><br><br>
+                    <input type="submit" value="Bilim >" class="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
