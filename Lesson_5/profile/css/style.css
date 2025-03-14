@@ -1,0 +1,59 @@
+.container-sm{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h5{
+    font-size: 20px;
+}
+.bg-color{
+    background-color: green;
+}
+.color-white{
+    color: white;
+}
+.py-5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border-green{
+    border: 1px solid green;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.btn-w-5{
+    width: 100%;
+}
+.btn-w-2{
+    width: 90px;
+}
+.bg-red{
+    background-color: rgb(255, 85, 85);
+}
+.border-radius{
+    border-radius: 7px;
+}
+.border-none{
+    border: none;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.color-black{
+    color: black;
+}
+.bg-grey{
+    background-color: rgb(206, 206, 206);
+}
+.text-center{
+    text-align: center;
+}
+.img-border-radius{
+    border-radius: 50%;
+}
